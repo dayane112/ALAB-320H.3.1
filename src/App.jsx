@@ -1,5 +1,6 @@
 import { useState } from 'react'
-// import Learner from './utilites/learner.mjs'
+import Learner from './utilites/learner'
+import Score from './utilites/score'
 import './App.css'
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
 
   return (
     <>
-
+    <Learner />
     </>
   )
 }
